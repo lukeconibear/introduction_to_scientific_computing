@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deforestation tiles</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Health impact assessments" href="health_impact_assessments.html" />
+    <link rel="prev" title="OpenAQ" href="openaq.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Introduction to Scientific Computing
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  python
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="python_installation.html">
+   Python - Installation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="python_basics.html">
+   Python - Basics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="numpy.html">
+   NumPy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="matplotlib.html">
+   Matplotlib
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cartopy.html">
+   Cartopy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pandas.html">
+   Pandas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="geopandas.html">
+   GeoPandas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="xarray.html">
+   xarray
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter.html">
+   Jupyter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="wrfchem.html">
+   WRFChem
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  linux
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="linux_basics.html">
+   Linux - Basics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="x2go.html">
+   X2Go
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="windows_subsystem_for_linux.html">
+   Windows Subsystem for Linux
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  github
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="github_basics.html">
+   GitHub - Basics
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  further resources
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="general.html">
+   General
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="tips_to_speed_up_python.html">
+   Tips to speed up Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="satellite_data.html">
+   Satellite data
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="openaq.html">
+   OpenAQ
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Deforestation tiles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="health_impact_assessments.html">
+   Health impact assessments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="emulators.html">
+   Emulators
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/deforestation.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/deforestation.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#global-forest-change-2000-2018-v1-6-data">
+   Global Forest Change 2000-2018 v1.6 data
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="deforestation-tiles">
+<h1>Deforestation tiles<a class="headerlink" href="#deforestation-tiles" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="global-forest-change-2000-2018-v1-6-data">
+<h2>Global Forest Change 2000-2018 v1.6 data<a class="headerlink" href="#global-forest-change-2000-2018-v1-6-data" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Download <a class="reference external" href="https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.6.html">data</a>.</p></li>
+<li><p>First find the cumulative loss over all years.</p></li>
+<li><p>Combine mosaic tiles.</p></li>
+<li><p>Regrid.</p></li>
+<li><p>Find the individual loss for each year.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">gdal</span>
+<span class="kn">import</span> <span class="nn">xarray</span> <span class="k">as</span> <span class="nn">xr</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.gridspec</span> <span class="k">as</span> <span class="nn">gridspec</span>
+<span class="kn">from</span> <span class="nn">mpl_toolkits.basemap</span> <span class="kn">import</span> <span class="n">Basemap</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">colors</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;/nfs/a68/earlacoa/deforestation/hansen_gfs_v1.6_lossyear/&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">regrid_mosaic_defor</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">year</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Description:</span>
+<span class="sd">        The Hansen dataset provides the year of forest loss per grid cell between 2000 and 2018.</span>
+<span class="sd">        For each year (e.g. 2005), convert the forest loss to binary by converting all forest loss up to that year</span>
+<span class="sd">        (e.g. 2000-2005) to a 1 and all forest loss in future years to a 0 (e.g. 2006-2018).</span>
+<span class="sd">        This is the cumulative forest loss.</span>
+<span class="sd">        Then to obtain individual forest loss for each year after 2000, subtract the forest loss from the</span>
+<span class="sd">        previous year (e.g. individual 2006 = cumulative 2006 - cumulative 2005).</span>
+<span class="sd">    Args:</span>
+<span class="sd">        res (float): desired resolution in degrees.</span>
+<span class="sd">        year (int): year.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        hdat (2d array, float): regridded deforestation data.</span>
+<span class="sd">        lat (1d array, float): latitude.</span>
+<span class="sd">        lon (1d array, float): longitude.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># setup domain</span>
+    <span class="n">lon_extent_min</span> <span class="o">=</span> <span class="o">-</span><span class="mi">180</span>
+    <span class="n">lon_extent_max</span> <span class="o">=</span> <span class="mi">180</span>
+    <span class="n">lat_extent_min</span> <span class="o">=</span> <span class="o">-</span><span class="mi">60</span>
+    <span class="n">lat_extent_max</span> <span class="o">=</span> <span class="mi">80</span>
+    <span class="n">scale</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">res</span> <span class="o">/</span> <span class="nb">abs</span><span class="p">(</span><span class="mf">0.00025</span><span class="p">))</span> <span class="c1"># fixed</span>
+    <span class="n">ydim</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">((</span><span class="n">lat_extent_max</span> <span class="o">-</span> <span class="n">lat_extent_min</span><span class="p">)</span> <span class="o">/</span> <span class="n">res</span><span class="p">))</span>
+    <span class="n">xdim1</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mi">10</span> <span class="o">/</span> <span class="n">res</span><span class="p">))</span> <span class="c1"># fixed</span>
+    <span class="n">xdim2</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">((</span><span class="n">lon_extent_max</span> <span class="o">-</span> <span class="n">lon_extent_min</span><span class="p">)</span> <span class="o">/</span> <span class="n">res</span><span class="p">))</span>
+    <span class="n">vdat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">ydim</span><span class="p">,</span> <span class="n">xdim1</span><span class="p">))</span>
+    <span class="n">hdat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">ydim</span><span class="p">,</span> <span class="n">xdim2</span><span class="p">))</span>
+    <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="k">for</span> <span class="n">nx</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="n">lon_extent_min</span><span class="p">,</span> <span class="o">-</span><span class="n">lon_extent_max</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">):</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        
+        <span class="k">for</span> <span class="n">ny</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">lat_extent_max</span><span class="p">,</span> <span class="n">lat_extent_min</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">):</span>
+            <span class="c1"># define the filename based on lat and lon as uses north, south, east, and west in filenames</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">nx</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">nx</span> <span class="o">==</span> <span class="mi">180</span><span class="p">)</span> <span class="ow">and</span> <span class="n">ny</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">xstr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">nx</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+                <span class="n">ystr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">ny</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+                <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear_&#39;</span> <span class="o">+</span> <span class="n">ystr</span> <span class="o">+</span> <span class="s1">&#39;N_&#39;</span> <span class="o">+</span> <span class="n">xstr</span> <span class="o">+</span> <span class="s1">&#39;W.tif&#39;</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">nx</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">nx</span> <span class="o">==</span> <span class="mi">180</span><span class="p">)</span> <span class="ow">and</span> <span class="n">ny</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">xstr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">nx</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+                <span class="n">ystr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">ny</span><span class="p">))</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+                <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear_&#39;</span> <span class="o">+</span> <span class="n">ystr</span> <span class="o">+</span> <span class="s1">&#39;S_&#39;</span> <span class="o">+</span> <span class="n">xstr</span> <span class="o">+</span> <span class="s1">&#39;W.tif&#39;</span>
+            <span class="k">elif</span> <span class="n">nx</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">ny</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">xstr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">nx</span><span class="p">))</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+                <span class="n">ystr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">ny</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+                <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear_&#39;</span> <span class="o">+</span> <span class="n">ystr</span> <span class="o">+</span> <span class="s1">&#39;N_&#39;</span> <span class="o">+</span> <span class="n">xstr</span> <span class="o">+</span> <span class="s1">&#39;E.tif&#39;</span> 
+            <span class="k">elif</span> <span class="n">nx</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">ny</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">ystr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">ny</span><span class="p">))</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+                <span class="n">xstr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">nx</span><span class="p">))</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+                <span class="n">fname</span> <span class="o">=</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear_&#39;</span> <span class="o">+</span> <span class="n">ystr</span> <span class="o">+</span> <span class="s1">&#39;S_&#39;</span> <span class="o">+</span> <span class="n">xstr</span> <span class="o">+</span> <span class="s1">&#39;E.tif&#39;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+            
+            <span class="c1"># read data</span>
+            <span class="n">ds</span> <span class="o">=</span> <span class="n">gdal</span><span class="o">.</span><span class="n">Open</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="n">fname</span><span class="p">)</span>
+            <span class="n">band</span> <span class="o">=</span> <span class="n">ds</span><span class="o">.</span><span class="n">GetRasterBand</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">loss_data</span> <span class="o">=</span> <span class="n">band</span><span class="o">.</span><span class="n">ReadAsArray</span><span class="p">()</span>
+            
+            <span class="c1"># create new lat and lon</span>
+            <span class="n">gt</span>  <span class="o">=</span> <span class="n">ds</span><span class="o">.</span><span class="n">GetGeoTransform</span><span class="p">()</span>
+            <span class="n">lon</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">gt</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">gt</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">loss_data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">loss_data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">lat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">gt</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">gt</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">*</span> <span class="n">loss_data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">loss_data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span> <span class="o">=</span> <span class="n">lon</span><span class="p">[::</span><span class="n">scale</span><span class="p">],</span> <span class="n">lat</span><span class="p">[::</span><span class="n">scale</span><span class="p">]</span> 
+            
+            <span class="c1"># transform to binary for the year of interest</span>
+            <span class="n">loss_data</span><span class="p">[</span><span class="n">loss_data</span> <span class="o">&gt;</span> <span class="p">(</span><span class="n">year</span> <span class="o">-</span> <span class="mi">2000</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">loss_data</span><span class="p">[(</span><span class="n">loss_data</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">loss_data</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="n">year</span> <span class="o">-</span> <span class="mi">2000</span><span class="p">))]</span> <span class="o">=</span> <span class="mi">1</span>
+            
+            <span class="c1"># equate coarse grid to high-res grid</span>
+            <span class="n">data_regrid</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">xdim1</span><span class="p">,</span> <span class="n">xdim1</span><span class="p">))</span>
+            
+            <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">xx</span><span class="p">)):</span>
+                <span class="n">temp_lon_ix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">((</span><span class="n">lon</span> <span class="o">==</span> <span class="n">xx</span><span class="p">[</span><span class="n">ix</span><span class="p">]))[</span><span class="mi">0</span><span class="p">]</span>
+                
+                <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">yy</span><span class="p">)):</span>                   
+                    <span class="n">temp_lat_iy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">((</span><span class="n">lat</span> <span class="o">==</span> <span class="n">yy</span><span class="p">[</span><span class="n">iy</span><span class="p">]))[</span><span class="mi">0</span><span class="p">]</span>
+                    
+                    <span class="c1"># trim the data</span>
+                    <span class="n">data_trim</span> <span class="o">=</span> <span class="p">(</span><span class="n">loss_data</span><span class="p">[</span><span class="n">temp_lat_iy</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="n">temp_lat_iy</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">scale</span><span class="p">,</span> <span class="p">:][:,</span> <span class="n">temp_lon_ix</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="n">temp_lon_ix</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">scale</span><span class="p">])</span>
+                    
+                    <span class="c1"># find average across this trimmed data</span>
+                    <span class="n">mean_loss</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nanmean</span><span class="p">(</span><span class="n">data_trim</span><span class="p">)</span>
+                    
+                    <span class="c1"># set this mean to the corresponding value on the coarser grid</span>
+                    <span class="n">data_regrid</span><span class="p">[</span><span class="n">iy</span><span class="p">,</span> <span class="n">ix</span><span class="p">]</span> <span class="o">=</span> <span class="n">mean_loss</span>
+                    
+            <span class="c1"># add each tiles&#39; regridded data to a new global data</span>
+            <span class="n">vdat</span><span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="n">xdim1</span><span class="p">:(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">xdim1</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">data_regrid</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+        <span class="n">hdat</span><span class="p">[:,</span> <span class="n">j</span> <span class="o">*</span> <span class="n">xdim1</span><span class="p">:(</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">xdim1</span><span class="p">]</span> <span class="o">=</span> <span class="n">vdat</span>
+        <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        
+    <span class="c1"># create final global lat and lon</span>
+    <span class="n">lat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">lat_extent_max</span><span class="p">,</span> <span class="n">lat_extent_min</span><span class="p">,</span> <span class="o">-</span><span class="n">res</span><span class="p">)</span>
+    <span class="n">lon</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">lon_extent_min</span><span class="p">,</span> <span class="n">lon_extent_max</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">hdat</span><span class="p">,</span> <span class="n">lat</span><span class="p">,</span> <span class="n">lon</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">defor_xx</span><span class="p">,</span> <span class="n">defor_yy</span><span class="p">,</span> <span class="n">defor_array</span><span class="p">,</span> <span class="n">year</span><span class="p">,</span> <span class="n">values_max</span><span class="p">,</span> <span class="n">label</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Description:</span>
+<span class="sd">        Create a contoured plot of the global deforestation.</span>
+<span class="sd">        Either cumulatively or individually per year.</span>
+<span class="sd">    Args:</span>
+<span class="sd">        defor_xx (2d array, float): longitude.</span>
+<span class="sd">        defor_yy (2d array, float): latitude.</span>
+<span class="sd">        defor_array (2d array, float): deforestation.</span>
+<span class="sd">        year (int): year.</span>
+<span class="sd">        values_max (float): maximum value for the colour bar.</span>
+<span class="sd">        label (str): cumulative or individual.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        Plot displayed and saved to file.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+    <span class="n">gs</span> <span class="o">=</span> <span class="n">gridspec</span><span class="o">.</span><span class="n">GridSpec</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">basemap</span> <span class="o">=</span> <span class="n">Basemap</span><span class="p">(</span>
+        <span class="n">llcrnrlon</span><span class="o">=-</span><span class="mi">180</span><span class="p">,</span> <span class="n">llcrnrlat</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">urcrnrlon</span><span class="o">=</span><span class="mi">180</span><span class="p">,</span> <span class="n">urcrnrlat</span><span class="o">=</span><span class="mi">90</span><span class="p">,</span>
+        <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;cyl&#39;</span><span class="p">,</span> <span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;l&#39;</span>
+    <span class="p">)</span>
+    <span class="n">basemap</span><span class="o">.</span><span class="n">drawcountries</span><span class="p">(</span><span class="n">linewidth</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+    <span class="n">basemap</span><span class="o">.</span><span class="n">drawcoastlines</span><span class="p">(</span><span class="n">linewidth</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+    <span class="n">basemap</span><span class="o">.</span><span class="n">fillcontinents</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">basemap</span><span class="o">.</span><span class="n">drawparallels</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mf">80.</span><span class="p">,</span> <span class="mf">81.</span><span class="p">,</span> <span class="mf">10.</span><span class="p">),</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">basemap</span><span class="o">.</span><span class="n">drawmeridians</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mf">180.</span><span class="p">,</span> <span class="mf">181.</span><span class="p">,</span> <span class="mf">30.</span><span class="p">),</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;viridis&#39;</span>
+    <span class="n">norm</span> <span class="o">=</span> <span class="n">colors</span><span class="o">.</span><span class="n">Normalize</span><span class="p">(</span><span class="n">vmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="n">values_max</span><span class="p">)</span>
+    <span class="n">im</span> <span class="o">=</span> <span class="n">basemap</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span>
+        <span class="n">defor_xx</span><span class="p">,</span> <span class="n">defor_yy</span><span class="p">,</span> <span class="n">defor_array</span><span class="p">,</span> 
+        <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">values_max</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">,</span> <span class="n">norm</span><span class="o">=</span><span class="n">norm</span>
+    <span class="p">)</span>
+    <span class="n">sm</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">ScalarMappable</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="n">norm</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">im</span><span class="o">.</span><span class="n">cmap</span><span class="p">)</span>
+    <span class="n">sm</span><span class="o">.</span><span class="n">set_array</span><span class="p">([])</span>
+    <span class="n">cb</span> <span class="o">=</span> <span class="n">basemap</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">sm</span><span class="p">,</span> <span class="s2">&quot;right&quot;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="s2">&quot;5%&quot;</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="s1">&#39;2%&#39;</span><span class="p">,</span> <span class="n">norm</span><span class="o">=</span><span class="n">norm</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cmap</span><span class="p">,</span> <span class="n">ticks</span><span class="o">=</span><span class="n">im</span><span class="o">.</span><span class="n">levels</span><span class="p">)</span>
+    <span class="n">cb</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span>
+        <span class="s1">&#39;Hansen GFC 2018 v1.6, loss year, 0.25 degrees,</span><span class="se">\n</span><span class="s1"> fractional deforestation (0-1)&#39;</span><span class="p">,</span> 
+        <span class="n">size</span><span class="o">=</span><span class="mi">14</span>
+    <span class="p">)</span>
+    <span class="n">cb</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">),</span> <span class="n">size</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;both&#39;</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;both&#39;</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s1">&#39;minor&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+        <span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear-&#39;</span> <span class="o">+</span> <span class="n">label</span> <span class="o">+</span> <span class="s1">&#39;_global_0.25deg_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.png&#39;</span><span class="p">,</span> 
+        <span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span>
+    <span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">years</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span> <span class="mi">2018</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">res</span> <span class="o">=</span> <span class="mf">0.25</span>
+<span class="n">defor_cumulative</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">defor_individual</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="n">years</span><span class="p">:</span>
+    <span class="c1"># run regridding and mosaicing function</span>
+    <span class="n">output</span><span class="p">,</span> <span class="n">lat</span><span class="p">,</span> <span class="n">lon</span> <span class="o">=</span> <span class="n">regrid_mosaic_defor</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">year</span><span class="p">)</span>
+
+    <span class="c1"># create dataarray</span>
+    <span class="n">defor</span> <span class="o">=</span> <span class="n">xr</span><span class="o">.</span><span class="n">DataArray</span><span class="p">(</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">output</span><span class="p">,</span> 
+        <span class="n">coords</span> <span class="o">=</span> <span class="p">[</span><span class="n">lat</span><span class="p">,</span> <span class="n">lon</span><span class="p">],</span>
+        <span class="n">dims</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;lat&#39;</span><span class="p">,</span> <span class="s1">&#39;lon&#39;</span><span class="p">]</span>
+    <span class="p">)</span>
+    <span class="n">defor</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;deforestation&#39;</span>
+    <span class="n">defor</span> <span class="o">=</span> <span class="n">defor</span><span class="o">.</span><span class="n">assign_coords</span><span class="p">({</span><span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">:],</span> <span class="s1">&#39;%y&#39;</span><span class="p">)})</span>
+    <span class="n">defor</span> <span class="o">=</span> <span class="n">defor</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="s1">&#39;time&#39;</span><span class="p">)</span>
+    <span class="n">defor</span><span class="o">.</span><span class="n">to_netcdf</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear-cumulative_global_0.25deg_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.nc&#39;</span><span class="p">)</span>
+
+    <span class="n">defor_array</span> <span class="o">=</span> <span class="n">defor</span><span class="o">.</span><span class="n">isel</span><span class="p">(</span><span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">values</span>
+    <span class="n">defor_xx</span><span class="p">,</span> <span class="n">defor_yy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">defor</span><span class="o">.</span><span class="n">lon</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">defor</span><span class="o">.</span><span class="n">lat</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+    
+    <span class="c1"># plot cumulative</span>
+    <span class="n">plot</span><span class="p">(</span><span class="n">defor_xx</span><span class="p">,</span> <span class="n">defor_yy</span><span class="p">,</span> <span class="n">defor_array</span><span class="p">,</span> <span class="n">year</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;cumulative&#39;</span><span class="p">)</span>
+    
+    <span class="c1"># calculate individual yearly loss</span>
+    <span class="n">defor_cumulative</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">year</span><span class="p">:</span> <span class="n">xr</span><span class="o">.</span><span class="n">open_dataset</span><span class="p">(</span>
+        <span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear-cumulative_global_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;deg_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.nc&#39;</span>
+    <span class="p">)[</span><span class="s1">&#39;deforestation&#39;</span><span class="p">]})</span>
+    <span class="k">if</span> <span class="n">year</span> <span class="o">==</span> <span class="mi">2000</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">defor_individual</span><span class="o">.</span><span class="n">update</span><span class="p">({</span>
+            <span class="n">year</span><span class="p">:</span> <span class="n">defor_cumulative</span><span class="p">[</span><span class="n">year</span><span class="p">]</span> <span class="o">-</span> <span class="n">defor_cumulative</span><span class="p">[</span><span class="n">year</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="p">})</span>
+    
+    <span class="n">defor_individual</span><span class="p">[</span><span class="n">year</span><span class="p">]</span><span class="o">.</span><span class="n">to_netcdf</span><span class="p">(</span>
+        <span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;Hansen_GFC-2018-v1.6_lossyear-individual_global_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;deg_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.nc&#39;</span>
+    <span class="p">)</span>
+    
+    <span class="c1"># plot individual</span>
+    <span class="n">defor_array</span> <span class="o">=</span> <span class="n">defor_individual</span><span class="p">[</span><span class="n">year</span><span class="p">]</span><span class="o">.</span><span class="n">isel</span><span class="p">(</span><span class="n">time</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">values</span>
+    <span class="n">plot</span><span class="p">(</span><span class="n">defor_xx</span><span class="p">,</span> <span class="n">defor_yy</span><span class="p">,</span> <span class="n">defor_array</span><span class="p">,</span> <span class="n">year</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s1">&#39;individual&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="openaq.html" title="previous page">OpenAQ</a>
+    <a class='right-next' id="next-link" href="health_impact_assessments.html" title="next page">Health impact assessments</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Luke Conibear<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

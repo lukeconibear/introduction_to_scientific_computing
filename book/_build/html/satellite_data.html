@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satellite data</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="OpenAQ" href="openaq.html" />
+    <link rel="prev" title="Tips to speed up Python" href="tips_to_speed_up_python.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Introduction to Scientific Computing
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  python
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="python_installation.html">
+   Python - Installation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="python_basics.html">
+   Python - Basics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="numpy.html">
+   NumPy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="matplotlib.html">
+   Matplotlib
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cartopy.html">
+   Cartopy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pandas.html">
+   Pandas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="geopandas.html">
+   GeoPandas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="xarray.html">
+   xarray
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter.html">
+   Jupyter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="wrfchem.html">
+   WRFChem
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  linux
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="linux_basics.html">
+   Linux - Basics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="x2go.html">
+   X2Go
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="windows_subsystem_for_linux.html">
+   Windows Subsystem for Linux
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  github
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="github_basics.html">
+   GitHub - Basics
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  further resources
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="general.html">
+   General
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="tips_to_speed_up_python.html">
+   Tips to speed up Python
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Satellite data
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="openaq.html">
+   OpenAQ
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="deforestation.html">
+   Deforestation tiles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="health_impact_assessments.html">
+   Health impact assessments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="emulators.html">
+   Emulators
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/satellite_data.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#download-satellite-data-from-nasa-laads">
+   Download satellite data from NASA LAADS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#merge">
+   Merge
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="satellite-data">
+<h1>Satellite data<a class="headerlink" href="#satellite-data" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="download-satellite-data-from-nasa-laads">
+<h2>Download satellite data from NASA LAADS<a class="headerlink" href="#download-satellite-data-from-nasa-laads" title="Permalink to this headline">¶</a></h2>
+<ol>
+<li><p>Go to the <a class="reference external" href="https://ladsweb.modaps.eosdis.nasa.gov/">LAADS website</a> and search for the data you’re after.</p>
+<ul class="simple">
+<li><p>e.g. <a class="reference external" href="https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/6/MOD14A1/2020/">MODIS Thermal Anomalies/Fire for 2020</a>.</p></li>
+<li><p>e.g. <a class="reference external" href="https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MOD04_L2/2019/">MODIS AOD for 2019</a>.</p></li>
+</ul>
+</li>
+<li><p>Create main download script as below and name it <code class="docutils literal notranslate"><span class="pre">laads-main-download.sh</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="k">for</span> julday <span class="k">in</span> <span class="o">{</span><span class="m">001</span>..365<span class="o">}</span><span class="p">;</span>
+    <span class="k">do</span> <span class="k">for</span> satellite <span class="k">in</span> <span class="s1">&#39;MOD04_L2&#39;</span> <span class="s1">&#39;MYD04_L2&#39;</span><span class="p">;</span>
+        <span class="k">do</span> . laads-data-download.sh -s https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/<span class="nv">$satellite</span>/2019/<span class="nv">$julday</span> -d TARGET_PATH -t KEY<span class="p">;</span>
+    <span class="k">done</span><span class="p">;</span>
+<span class="k">done</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Change the satellite ID to the one you want (e.g. MOD14A1).</p></li>
+<li><p>Change the collection number (e.g. 61 to 6)</p></li>
+<li><p>Change the year.</p></li>
+<li><p>Replace <code class="docutils literal notranslate"><span class="pre">TARGET_PATH</span></code> with where you want to save the data on your computer.</p></li>
+<li><p>Replace <code class="docutils literal notranslate"><span class="pre">KEY</span></code> with your user key for LAADS.</p>
+<ul>
+<li><p>You can get from <a class="reference external" href="https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/data-download-scripts/">here</a>.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Create data download script as below and name it <code class="docutils literal notranslate"><span class="pre">laads-data-download.sh</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+
+<span class="k">function</span> usage <span class="o">{</span>
+  <span class="nb">echo</span> <span class="s2">&quot;Usage:&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;  </span><span class="nv">$0</span><span class="s2"> [options]&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;Description:&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;  This script will recursively download all files if they don&#39;t exist&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;  from a LAADS URL and stores them to the specified path&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;Options:&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;    -s|--source [URL]         Recursively download files at [URL]&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;    -d|--destination [path]   Store directory structure to [path]&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;    -t|--token [token]        Use app token [token] to authenticate&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;Dependencies:&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;  Requires &#39;jq&#39; which is available as a standalone executable from&quot;</span>
+  <span class="nb">echo</span> <span class="s2">&quot;  https://stedolan.github.io/jq/download/&quot;</span>
+<span class="o">}</span>
+
+<span class="k">function</span> recurse <span class="o">{</span>
+  <span class="nb">local</span> <span class="nv">src</span><span class="o">=</span><span class="nv">$1</span>
+  <span class="nb">local</span> <span class="nv">dest</span><span class="o">=</span><span class="nv">$2</span>
+  <span class="nb">local</span> <span class="nv">token</span><span class="o">=</span><span class="nv">$3</span>
+
+  <span class="nb">echo</span> <span class="s2">&quot;Querying </span><span class="si">${</span><span class="nv">src</span><span class="si">}</span><span class="s2">.json&quot;</span>
+
+  <span class="k">for</span> dir <span class="k">in</span> <span class="k">$(</span>curl -s -H <span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="s2">&quot;</span> <span class="si">${</span><span class="nv">src</span><span class="si">}</span>.json <span class="p">|</span> jq <span class="s1">&#39;.[] | select(.size==0) | .name&#39;</span> <span class="p">|</span> tr -d <span class="s1">&#39;&quot;&#39;</span><span class="k">)</span>
+  <span class="k">do</span>
+    <span class="nb">echo</span> <span class="s2">&quot;Creating </span><span class="si">${</span><span class="nv">dest</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">&quot;</span>
+    mkdir -p <span class="s2">&quot;</span><span class="si">${</span><span class="nv">dest</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="nb">echo</span> <span class="s2">&quot;Recursing </span><span class="si">${</span><span class="nv">src</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">/ for </span><span class="si">${</span><span class="nv">dest</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">&quot;</span>
+    recurse <span class="s2">&quot;</span><span class="si">${</span><span class="nv">src</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">/&quot;</span> <span class="s2">&quot;</span><span class="si">${</span><span class="nv">dest</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dir</span><span class="si">}</span><span class="s2">&quot;</span>
+  <span class="k">done</span>
+
+  <span class="k">for</span> file <span class="k">in</span> <span class="k">$(</span>curl -s -H <span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="s2">&quot;</span> <span class="si">${</span><span class="nv">src</span><span class="si">}</span>.json <span class="p">|</span> jq <span class="s1">&#39;.[] | select(.size!=0) | .name&#39;</span> <span class="p">|</span> tr -d <span class="s1">&#39;&quot;&#39;</span><span class="k">)</span>
+  <span class="k">do</span>
+    <span class="k">if</span> <span class="o">[</span> ! -f <span class="si">${</span><span class="nv">dest</span><span class="si">}</span>/<span class="si">${</span><span class="nv">file</span><span class="si">}</span> <span class="o">]</span> 
+    <span class="k">then</span>
+      <span class="nb">echo</span> <span class="s2">&quot;Downloading </span><span class="nv">$file</span><span class="s2"> to </span><span class="si">${</span><span class="nv">dest</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="c1"># replace &#39;-s&#39; with &#39;-#&#39; below for download progress bars</span>
+      curl -s -H <span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">token</span><span class="si">}</span><span class="s2">&quot;</span> <span class="si">${</span><span class="nv">src</span><span class="si">}</span>/<span class="si">${</span><span class="nv">file</span><span class="si">}</span> -o <span class="si">${</span><span class="nv">dest</span><span class="si">}</span>/<span class="si">${</span><span class="nv">file</span><span class="si">}</span>
+    <span class="k">else</span>
+      <span class="nb">echo</span> <span class="s2">&quot;Skipping </span><span class="nv">$file</span><span class="s2"> ...&quot;</span>
+    <span class="k">fi</span>
+  <span class="k">done</span>
+<span class="o">}</span>
+
+<span class="nv">POSITIONAL</span><span class="o">=()</span>
+<span class="k">while</span> <span class="o">[[</span> <span class="nv">$#</span> -gt <span class="m">0</span> <span class="o">]]</span>
+<span class="k">do</span>
+  <span class="nv">key</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$1</span><span class="s2">&quot;</span>
+
+  <span class="k">case</span> <span class="nv">$key</span> <span class="k">in</span>
+    -s<span class="p">|</span>--source<span class="o">)</span>
+    <span class="nv">src</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$2</span><span class="s2">&quot;</span>
+    <span class="nb">shift</span> <span class="c1"># past argument</span>
+    <span class="nb">shift</span> <span class="c1"># past value</span>
+    <span class="p">;;</span>
+    -d<span class="p">|</span>--destination<span class="o">)</span>
+    <span class="nv">dest</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$2</span><span class="s2">&quot;</span>
+    <span class="nb">shift</span> <span class="c1"># past argument</span>
+    <span class="nb">shift</span> <span class="c1"># past value</span>
+    <span class="p">;;</span>
+    -t<span class="p">|</span>--token<span class="o">)</span>
+    <span class="nv">token</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$2</span><span class="s2">&quot;</span>
+    <span class="nb">shift</span> <span class="c1"># past argument</span>
+    <span class="nb">shift</span> <span class="c1"># past value</span>
+    <span class="p">;;</span>
+    *<span class="o">)</span>    <span class="c1"># unknown option</span>
+    <span class="nv">POSITIONAL</span><span class="o">+=(</span><span class="s2">&quot;</span><span class="nv">$1</span><span class="s2">&quot;</span><span class="o">)</span> <span class="c1"># save it in an array for later</span>
+    <span class="nb">shift</span> <span class="c1"># past argument</span>
+    <span class="p">;;</span>
+  <span class="k">esac</span>
+<span class="k">done</span>
+
+<span class="k">if</span> <span class="o">[</span> -z <span class="si">${</span><span class="nv">src</span><span class="p">+x</span><span class="si">}</span> <span class="o">]</span>
+<span class="k">then</span> 
+  <span class="nb">echo</span> <span class="s2">&quot;Source is not specified&quot;</span>
+  usage
+  <span class="nb">exit</span> <span class="m">1</span>
+<span class="k">fi</span>
+
+<span class="k">if</span> <span class="o">[</span> -z <span class="si">${</span><span class="nv">dest</span><span class="p">+x</span><span class="si">}</span> <span class="o">]</span>
+<span class="k">then</span> 
+  <span class="nb">echo</span> <span class="s2">&quot;Destination is not specified&quot;</span>
+  usage
+  <span class="nb">exit</span> <span class="m">1</span>
+<span class="k">fi</span>
+
+<span class="k">if</span> <span class="o">[</span> -z <span class="si">${</span><span class="nv">token</span><span class="p">+x</span><span class="si">}</span> <span class="o">]</span>
+<span class="k">then</span> 
+  <span class="nb">echo</span> <span class="s2">&quot;Token is not specified&quot;</span>
+  usage
+  <span class="nb">exit</span> <span class="m">1</span>
+<span class="k">fi</span>
+
+recurse <span class="s2">&quot;</span><span class="nv">$src</span><span class="s2">&quot;</span> <span class="s2">&quot;</span><span class="nv">$dest</span><span class="s2">&quot;</span> <span class="s2">&quot;</span><span class="nv">$token</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Run the main download script: <code class="docutils literal notranslate"><span class="pre">.</span> <span class="pre">laads-main-download.sh</span></code></p></li>
+</ol>
+</div>
+<div class="section" id="merge">
+<h2>Merge<a class="headerlink" href="#merge" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="tips_to_speed_up_python.html" title="previous page">Tips to speed up Python</a>
+    <a class='right-next' id="next-link" href="openaq.html" title="next page">OpenAQ</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Luke Conibear<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

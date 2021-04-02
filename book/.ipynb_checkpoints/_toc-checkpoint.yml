@@ -1,0 +1,34 @@
+- file: index
+
+- part: python
+  chapters:
+  - file: python_installation
+  - file: python_basics
+  - file: numpy
+  - file: matplotlib
+  - file: cartopy
+  - file: pandas
+  - file: geopandas
+  - file: xarray
+  - file: jupyter
+  - file: wrfchem
+
+- part: linux
+  chapters:
+  - file: linux_basics
+  - file: x2go
+  - file: windows_subsystem_for_linux
+  
+- part: github
+  chapters:
+  - file: github_basics
+  
+- part: further resources
+  chapters:
+  - file: general
+  - file: tips_to_speed_up_python
+  - file: satellite_data
+  - file: openaq
+  - file: deforestation
+  - file: health_impact_assessments
+  - file: emulators
