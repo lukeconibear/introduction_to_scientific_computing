@@ -157,7 +157,7 @@ for num in range(1_000_000):
     bigger_num = max(num, constant)
 
 ### Use [built-in functions](https://docs.python.org/3/library/functions.html)
-- *Optimised in [C](https://en.wikipedia.org/wiki/C_(programming_language) (statically typed and compiled).*
+- *Optimised in C (statically typed and compiled).*
 
 nums = [num for num in range(1_000_000)]
 
