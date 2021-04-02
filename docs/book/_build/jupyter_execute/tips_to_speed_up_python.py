@@ -391,15 +391,15 @@ xr.tutorial.open_dataset('air_temperature')
   - `-pe ib np` on ARC4
 
 #### [Single machine](https://docs.dask.org/en/latest/setup/single-distributed.html)
+See the excellent video from Dask creator, Matthew Rocklin, below.
 - [Dask](https://docs.dask.org/en/latest/)
   - Great features.
   - Helpful documentation.
   - Familiar API.
   - Under the hood for many libraries e.g. [xarray](http://xarray.pydata.org/en/stable/dask.html), [iris](https://scitools.org.uk/iris/docs/v2.4.0/userguide/real_and_lazy_data.html), [scikit-learn](https://ml.dask.org/).
 
-from IPython.display import Video
-
-Video('images/dask_single_machine.mp4')
+from IPython.display import IFrame
+IFrame(src='https://www.youtube.com/embed/ods97a5Pzw0', width='560', height='315')
 
 from dask.distributed import Client
 client = Client()
@@ -420,9 +420,10 @@ ds.close()
 client.close()
 
 #### Multi-threading
+See the excellent video from Dask creator, Matthew Rocklin, below.
 - e.g. [dask.array](https://examples.dask.org/array.html) (NumPy).
 
-Video('images/multi-threading.mp4')
+IFrame(src='https://www.youtube.com/embed/ZrP-QTxwwnU', width='560', height='315')
 
 from dask.distributed import Client
 client = Client(
@@ -446,9 +447,10 @@ result.compute()
 client.close()
 
 #### Multi-processing
+See the excellent video from Dask creator, Matthew Rocklin, below.
 - e.g. [dask.dataframe](https://examples.dask.org/dataframe.html) (Pandas).
 
-Video('images/multi-processing.mp4')
+IFrame(src='https://www.youtube.com/embed/6qwlDc959b0', width='560', height='315')
 
 from dask.distributed import Client
 client = Client()
@@ -474,13 +476,15 @@ type(result_computed)
 client.close()
 
 #### [Interactive on HPC](https://pangeo.io/setup_guides/hpc.html)
-- [Setup video](https://youtu.be/FXsgmwpRExM).
-  - Create or edit the `~/.config/dask/jobqueue.yaml` file with that in this directory.
-  - Also, can check the `~/.config/dask/distributed.yaml` file with that in this directory.
+See the excellent video from Dask creator, Matthew Rocklin, below.
+- Create or edit the `~/.config/dask/jobqueue.yaml` file with that in this directory.
+- Also, can check the `~/.config/dask/distributed.yaml` file with that in this directory.
+
+
+IFrame(src='https://www.youtube.com/embed/FXsgmwpRExM', width='560', height='315')
+
 - e.g. [dask.bag](https://examples.dask.org/bag.html)
   - Iterate over a bag of independent objects (embarrassingly parallel).
-
-Video("images/interactive_on_hpc.mp4")
 
 # in a terminal
 
