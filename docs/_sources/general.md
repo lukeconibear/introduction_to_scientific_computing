@@ -16,6 +16,7 @@ There are many excellent resources out there for scientific computing, including
     - [SciPy](https://www.scipy.org/) for mathematics and statistics.  
     - [xESMF](https://xesmf.readthedocs.io/en/latest/) for regridding.  
     - [WRF-Python](https://wrf-python.readthedocs.io/en/latest/) for analysing WRF output.  
+    - [Bokeh](https://docs.bokeh.org/en/latest/) for interactive plots.  
     - [Pangeo](https://pangeo.io/) for bringing these libraries together.  
 - [ARC](https://arcdocs.leeds.ac.uk/welcome.html) for HPC at Leeds.  
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for personal Python installation.  

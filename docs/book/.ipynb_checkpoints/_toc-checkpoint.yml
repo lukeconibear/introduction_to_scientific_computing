@@ -12,6 +12,7 @@
   - file: xarray
   - file: jupyter
   - file: wrfchem
+  - file: bokeh
 
 - part: linux
   chapters:

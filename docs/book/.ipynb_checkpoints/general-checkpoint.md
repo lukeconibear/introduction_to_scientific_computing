@@ -16,6 +16,7 @@ There are many excellent resources out there for scientific computing, including
     - [SciPy](https://www.scipy.org/) for mathematics and statistics.  
     - [xESMF](https://xesmf.readthedocs.io/en/latest/) for regridding.  
     - [WRF-Python](https://wrf-python.readthedocs.io/en/latest/) for analysing WRF output.  
+    - [Bokeh](https://docs.bokeh.org/en/latest/) for interactive plots.  
     - [Pangeo](https://pangeo.io/) for bringing these libraries together.  
 - [ARC](https://arcdocs.leeds.ac.uk/welcome.html) for HPC at Leeds.  
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for personal Python installation.  
@@ -26,6 +27,7 @@ There are many excellent resources out there for scientific computing, including
 - [Official Python Tutorial](https://docs.python.org/3/tutorial/), Python Software Foundation.  
 - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
 - [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html), Tomas Beuzen.  
+- [Automating GIS-processes](https://automating-gis-processes.github.io/site/), Henrikki Tenkanen and Vuokko Heikinheimo, Digital Geography Lab, University of Helsinki.  
 - [Linux guide](https://github.com/cemacrr/linux_intro/blob/master/document.pdf), Richard Rigby - CEMAC.  
 - [Unix Shell](http://swcarpentry.github.io/shell-novice/), Software Carpentry.  
 - [Pangeo tutorials](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/index.html).  
