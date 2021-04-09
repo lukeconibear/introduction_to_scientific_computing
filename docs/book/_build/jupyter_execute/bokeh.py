@@ -46,7 +46,7 @@ plot.patches('x', 'y', source=data,
 
 show(plot)
 
-## Data data source with dropdown selection
+## Data source with dropdown selection
 
 import numpy as np
 from bokeh.io import show
