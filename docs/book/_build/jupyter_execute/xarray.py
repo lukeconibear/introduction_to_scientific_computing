@@ -41,7 +41,7 @@ sst
 
 sst.sel(time='2020-01-01').plot(vmin=-2, vmax=30);
 
-da.sel(lon=180, lat=0).plot();
+sst.sel(lon=180, lat=0).plot();
 
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
@@ -63,5 +63,26 @@ sst.sel(
 )
 
 plt.show()
+
+import xesmf as xe
+
+global_grid = xr.Dataset(
+    {'lat': (['lat'], np.arange(-60, 85, 0.25)), 
+     'lon': (['lon'], np.arange(-180, 180, 0.25)),}
+)
+
+sst_2021 = sst.isel(time=-1)
+
+regridder = xe.Regridder(
+    sst_2021, 
+    global_grid, 
+    'bilinear', 
+    periodic=True # needed for global grids, otherwise miss the meridian line
+)
+# for multiple files to the same grid, add: reuse_weights=True
+
+sst_2021_regridded = regridder(sst_2021)
+
+sst_2021_regridded.plot();
 
 For more information, see the [documentation](http://xarray.pydata.org/en/stable/).
