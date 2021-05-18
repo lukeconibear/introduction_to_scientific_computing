@@ -497,14 +497,15 @@
 <div class="section" id="hang-on-don-t-optimise-too-early">
 <h2>Hang on, don’t optimise too early<a class="headerlink" href="#hang-on-don-t-optimise-too-early" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Trade-offs e.g. complexity, speed, memory, disk, readability, time, effort, etc.</p></li>
-</ul>
-<ol class="simple">
+<li><p>Trade-offs e.g. complexity, speed, memory, disk, readability, time, effort, etc.</p>
+<ul>
 <li><p>Check that code is correct (tested, documented).</p></li>
 <li><p>Is optimisation needed?</p></li>
 <li><p>If yes, optimise code and data.</p></li>
 <li><p>If more needed, parallelise.</p></li>
-</ol>
+</ul>
+</li>
+</ul>
 <p><em>Plot idea from <a class="reference external" href="https://ml.dask.org/">Dask-ML</a>.</em></p>
 <div class="cell tag_remove_input docutils container">
 <div class="cell_output docutils container">
@@ -690,8 +691,11 @@
 <div class="section" id="use-optimal-data-types">
 <h3>Use optimal <a class="reference external" href="https://docs.python.org/3/library/datatypes.html">data types</a><a class="headerlink" href="#use-optimal-data-types" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://docs.python.org/3/tutorial/datastructures.html">Common</a> and <a class="reference external" href="https://docs.python.org/3/library/collections.html">additional data structures</a>.</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/tutorial/datastructures.html">Common</a> and <a class="reference external" href="https://docs.python.org/3/library/collections.html">additional data structures</a>.</p>
+<ul>
 <li><p>e.g. <a class="reference external" href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">dictionaries</a> are fast to search, O(1).</p></li>
+</ul>
+</li>
 </ul>
 <p><em>Example from Luciano Ramalho, <a class="reference external" href="https://www.oreilly.com/library/view/fluent-python/9781491946237/">Fluent Python, Clear, Concise, and Effective Programming</a>, 2015. O’Reilly Media, Inc.</em></p>
 <div class="cell docutils container">
@@ -2413,18 +2417,16 @@ ssh -N -L 2222:`hostname`:2222 -L 2727:`hostname`:2727 ${USER}@arc4.leeds.ac.uk
 </div>
 <div class="section" id="recommendations">
 <h2>Recommendations<a class="headerlink" href="#recommendations" title="Permalink to this headline">¶</a></h2>
-<ol class="simple">
-<li><p>Check code is correct and optimisation is needed.</p></li>
-<li><p>Profile to find bottlenecks.</p></li>
-</ol>
 <ul class="simple">
+<li><p>Check code is correct and optimisation is needed.</p></li>
+<li><p>Profile to find bottlenecks.</p>
+<ul>
 <li><p>Jupyter Lab: <code class="docutils literal notranslate"><span class="pre">%%timeit</span></code> and <code class="docutils literal notranslate"><span class="pre">%%memit</span></code>.</p></li>
 <li><p>Line-by-line: <code class="docutils literal notranslate"><span class="pre">line_profiler</span></code> and <code class="docutils literal notranslate"><span class="pre">memory_profiler</span></code>.</p></li>
 </ul>
-<ol class="simple">
-<li><p>Optimise code and data.</p></li>
-</ol>
-<ul class="simple">
+</li>
+<li><p>Optimise code and data.</p>
+<ul>
 <li><p>Data structures.</p></li>
 <li><p>Use existing optimised libraries (algorithms).</p></li>
 <li><p>Vectorisation (instead of loops).</p></li>
@@ -2437,14 +2439,14 @@ ssh -N -L 2222:`hostname`:2222 -L 2727:`hostname`:2727 ${USER}@arc4.leeds.ac.uk
 </li>
 <li><p>If need static typing, use <a class="reference external" href="https://cython.org/">Cython</a>.</p></li>
 </ul>
-<ol class="simple">
+</li>
 <li><p>Parallelise.</p>
-<ul class="simple">
+<ul>
 <li><p>Use multi-processing (don’t need to worry about GIL).</p></li>
 <li><p>Use <a class="reference external" href="https://dask.org/">Dask</a> (<a class="reference external" href="https://coiled.io/">Coiled</a>).</p></li>
 </ul>
 </li>
-</ol>
+</ul>
 </div>
 <div class="section" id="further-information">
 <h2>Further information<a class="headerlink" href="#further-information" title="Permalink to this headline">¶</a></h2>

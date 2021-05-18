@@ -28,10 +28,10 @@
 
 ## Hang on, don't optimise too early
 - Trade-offs e.g. complexity, speed, memory, disk, readability, time, effort, etc.
-1. Check that code is correct (tested, documented).
-2. Is optimisation needed?
-3. If yes, optimise code and data.
-4. If more needed, parallelise.  
+    - Check that code is correct (tested, documented).
+    - Is optimisation needed?
+    - If yes, optimise code and data.
+    - If more needed, parallelise.  
 
 *Plot idea from [Dask-ML](https://ml.dask.org/).*
 
@@ -170,7 +170,7 @@ for num in nums: # time O(n)
 
 ### Use optimal [data types](https://docs.python.org/3/library/datatypes.html)
 - [Common](https://docs.python.org/3/tutorial/datastructures.html) and [additional data structures](https://docs.python.org/3/library/collections.html).
-- e.g. [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) are fast to search, O(1).  
+    - e.g. [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) are fast to search, O(1).  
 
 *Example from Luciano Ramalho, [Fluent Python, Clear, Concise, and Effective Programming](https://www.oreilly.com/library/view/fluent-python/9781491946237/), 2015. O'Reilly Media, Inc.*
 
@@ -577,20 +577,20 @@ x.sum(axis=1)
   - GPUs available on [ARC4](https://arcdocs.leeds.ac.uk/systems/arc4.html#using-the-v100-gpu-nodes).
 
 ## Recommendations
-1. Check code is correct and optimisation is needed.
-2. Profile to find bottlenecks.
-  - Jupyter Lab: `%%timeit` and `%%memit`.
-  - Line-by-line: `line_profiler` and `memory_profiler`.
-3. Optimise code and data.
-  - Data structures.
-  - Use existing optimised libraries (algorithms).
-  - Vectorisation (instead of loops).
-  - Lazy loading and execution.
-  - If numerically intensive problem:
-    - All code, use [PyPy](https://www.pypy.org/)/[GPUs](https://cupy.dev/).
-    - Specific functions, use [Numba](https://numba.pydata.org/).
-  - If need static typing, use [Cython](https://cython.org/).
-4. Parallelise.
+- Check code is correct and optimisation is needed.
+- Profile to find bottlenecks.
+    - Jupyter Lab: `%%timeit` and `%%memit`.
+    - Line-by-line: `line_profiler` and `memory_profiler`.
+- Optimise code and data.
+    - Data structures.
+    - Use existing optimised libraries (algorithms).
+    - Vectorisation (instead of loops).
+    - Lazy loading and execution.
+    - If numerically intensive problem:
+        - All code, use [PyPy](https://www.pypy.org/)/[GPUs](https://cupy.dev/).
+        - Specific functions, use [Numba](https://numba.pydata.org/).
+    - If need static typing, use [Cython](https://cython.org/).
+- Parallelise.
     - Use multi-processing (don't need to worry about GIL).
     - Use [Dask](https://dask.org/) ([Coiled](https://coiled.io/)).
 
