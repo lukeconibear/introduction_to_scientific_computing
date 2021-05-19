@@ -24,6 +24,7 @@ There are many excellent resources out there for scientific computing, including
 
 
 ## Tutorials
+- [Practical Python Programming](https://github.com/dabeaz-course/practical-python), David Beazley.  
 - [Official Python Tutorial](https://docs.python.org/3/tutorial/), Python Software Foundation.  
 - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
 - [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html), Tomas Beuzen.  
@@ -37,11 +38,11 @@ There are many excellent resources out there for scientific computing, including
 - [Python Packages](https://py-pkgs.org/), Tomas Beuzen & Tiffany Timbers.  
 
 ## Books
-- Luciano Ramalho, [*Fluent Python, Clear, Concise, and Effective Programming*](https://www.oreilly.com/library/view/fluent-python/9781491946237/), 2015. O'Reilly Media, Inc.
-- Jake VanderPlas, [*Python Data Science Handbook*](https://www.oreilly.com/library/view/python-data-science/9781491912126/), 2016. O'Reilly Media, Inc.
-- David Beazley, Brian K. Jones [*Python Cookbook: Recipes for Mastering Python 3*](https://play.google.com/store/books/details?id=S_SJ2LaZH8EC), 2013. O'Reilly Media, Inc.
-- David Beazley, [*Python Essential Reference*](https://play.google.com/store/books/details?id=7U1CIoOs5AkC), 2009. Addison-Wesley Professional. 
-- Robert C. Martin, [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), 2008, O'Reilly Media, Inc.
+- David Beazley, [*Python Essential Reference*](https://play.google.com/store/books/details?id=7U1CIoOs5AkC), 2009. Addison-Wesley Professional.  
+- David Beazley, Brian K. Jones [*Python Cookbook: Recipes for Mastering Python 3*](https://play.google.com/store/books/details?id=S_SJ2LaZH8EC), 2013. O'Reilly Media, Inc.  
+- Luciano Ramalho, [*Fluent Python, Clear, Concise, and Effective Programming*](https://www.oreilly.com/library/view/fluent-python/9781491946237/), 2015. O'Reilly Media, Inc.  
+- Jake VanderPlas, [*Python Data Science Handbook*](https://www.oreilly.com/library/view/python-data-science/9781491912126/), 2016. O'Reilly Media, Inc.  
+- Robert C. Martin, [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), 2008, O'Reilly Media, Inc.  
 
 ## Videos
 - [Preventing, Finding, and Fixing Bugs On a Time Budget](https://youtu.be/ARKbfWk4Xyw), Raymond Hettinger, PyBay 2018.  
