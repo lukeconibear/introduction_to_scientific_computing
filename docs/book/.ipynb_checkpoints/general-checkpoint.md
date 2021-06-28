@@ -42,7 +42,7 @@ There are many excellent resources out there for scientific computing, including
 - David Beazley, Brian K. Jones [*Python Cookbook: Recipes for Mastering Python 3*](https://play.google.com/store/books/details?id=S_SJ2LaZH8EC), 2013. O'Reilly Media, Inc.  
 - Luciano Ramalho, [*Fluent Python, Clear, Concise, and Effective Programming*](https://www.oreilly.com/library/view/fluent-python/9781491946237/), 2015. O'Reilly Media, Inc.  
 - Jake VanderPlas, [*Python Data Science Handbook*](https://www.oreilly.com/library/view/python-data-science/9781491912126/), 2016. O'Reilly Media, Inc.  
-- Robert C. Martin, [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), 2008, O'Reilly Media, Inc.  
+- Robert C. Martin, [*Clean Code: A Handbook of Agile Software Craftsmanship*](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), 2008, O'Reilly Media, Inc.  
 
 ## Videos
 - [Preventing, Finding, and Fixing Bugs On a Time Budget](https://youtu.be/ARKbfWk4Xyw), Raymond Hettinger, PyBay 2018.  

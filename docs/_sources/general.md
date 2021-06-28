@@ -3,7 +3,7 @@
 There are many excellent resources out there for scientific computing, including:
 
 ## Documentation
-- [Python](https://docs.python.org/3/).  
+- [Python](https://docs.python.org/3/) language.  
     - [NumPy](https://numpy.org/) for arrays.  
     - [Pandas](https://pandas.pydata.org/) for tables.  
     - [Matplotlib](https://matplotlib.org/) for general plots.  
@@ -22,37 +22,46 @@ There are many excellent resources out there for scientific computing, including
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for personal Python installation.  
 - [GitHub](https://docs.github.com/en/github) for version control.  
 
-
-## Tutorials
-- [Practical Python Programming](https://github.com/dabeaz-course/practical-python), David Beazley.  
-- [Official Python Tutorial](https://docs.python.org/3/tutorial/), Python Software Foundation.  
-- [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
-- [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html), Tomas Beuzen.  
-- [Automating GIS-processes](https://automating-gis-processes.github.io/site/), Henrikki Tenkanen and Vuokko Heikinheimo, Digital Geography Lab, University of Helsinki.  
-- [Linux guide](https://github.com/cemacrr/linux_intro/blob/master/document.pdf), Richard Rigby - CEMAC.  
-- [Unix Shell](http://swcarpentry.github.io/shell-novice/), Software Carpentry.  
-- [Pangeo tutorials](http://gallery.pangeo.io/repos/pangeo-data/pangeo-tutorial-gallery/index.html).  
-- [Version control with Git](http://swcarpentry.github.io/git-novice/), Software Carpentry.  
-- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/), Software Carpentry.  
-- [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/), Software Carpentry.  
-- [Python Packages](https://py-pkgs.org/), Tomas Beuzen & Tiffany Timbers.  
-
-## Books
-- David Beazley, [*Python Essential Reference*](https://play.google.com/store/books/details?id=7U1CIoOs5AkC), 2009. Addison-Wesley Professional.  
-- David Beazley, Brian K. Jones [*Python Cookbook: Recipes for Mastering Python 3*](https://play.google.com/store/books/details?id=S_SJ2LaZH8EC), 2013. O'Reilly Media, Inc.  
-- Luciano Ramalho, [*Fluent Python, Clear, Concise, and Effective Programming*](https://www.oreilly.com/library/view/fluent-python/9781491946237/), 2015. O'Reilly Media, Inc.  
-- Jake VanderPlas, [*Python Data Science Handbook*](https://www.oreilly.com/library/view/python-data-science/9781491912126/), 2016. O'Reilly Media, Inc.  
-- Robert C. Martin, [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.oreilly.com/library/view/clean-code-a/9780136083238/), 2008, O'Reilly Media, Inc.  
-
-## Videos
-- [Preventing, Finding, and Fixing Bugs On a Time Budget](https://youtu.be/ARKbfWk4Xyw), Raymond Hettinger, PyBay 2018.  
-- [When Python Practices Go Wrong](https://youtu.be/S0No2zSJmks), Brandon Rhodes, code::dive 2019.  
-- [Modules and Packages: Live and Let Die!](https://youtu.be/0oTh1CXRaQ0), David Beazley, PyCon 2015.  
-- [Built in Super Heroes](https://youtu.be/lyDLAutA88s), David Beazley, PyData Chicago 2016.  
-- [Modern Python Developer's Toolkit](https://youtu.be/WkUBx3g2QfQ), Sebastian Witowski, PyCon US 2020.  
-- [Why is Python slow?](https://youtu.be/I4nkgJdVZFA), Anthony Shaw, PyCon 2020. [CPython Internals](https://realpython.com/products/cpython-internals-book/).
-- [Pangeo](https://pangeo.io/index.html), [talk](https://youtu.be/2rgD5AJsAbE) - Python libraries that work well together and build on each other, especially for big data geosciences.  
-- [Concurrency](https://youtu.be/18B1pznaU1o) can also run different tasks together, but work is not done at the same time.
-- [Asynchronous](https://youtu.be/iG6fr81xHKA) (multi-threading), useful for massive scaling, threads controlled explicitly.
-- MIT course on '*Introduction to algorithms*', [video lectures](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb).
-- [Writing faster Python](https://youtu.be/YjHsOrOOSuI), Sebastian Witowski, Euro Python 2016.  
+## Data Science and Computer Science
+- Data Science:
+  - [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html), Ani Adhikari and John DeNero, UC Berkeley course Data 8: Foundations of Data Science.  
+    - [Video lectures](https://www.youtube.com/playlist?list=PL3juAj0fqNsI4HLvMJFnZDDabxAExG0wv).  
+  - [Principles and Techniques of Data Science](https://www.textbook.ds100.org/intro.html), Sam Lau, Joey Gonzalez, and Deb Nolan. UC Berkeley.  
+    - [Video lectures](https://ds100.org/su20/).  
+  - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
+  - [Scientific Programming](https://fabienmaussion.info/scientific_programming/welcome.html), Fabien Maussion, Department of Atmospheric and Cryospheric Sciences, the University of Innsbruck.  
+  - [Python Data Science Handbook](https://www.oreilly.com/library/view/python-data-science/9781491912126/), Jake VanderPlas, 2016. O’Reilly Media, Inc.  
+- Programming:  
+  - [Composing Programs](https://composingprograms.com/), John DeNero, based on the textbook [Structure and Interpretation of Computer Programs](https://play.google.com/store/books/details?id=MXZQAwAAQBAJ&pcampaignid=books_web_aboutlink) by Harold Abelson and Gerald Jay Sussman.  
+    - [Video lectures](https://www.youtube.com/c/JohnDeNero/playlists), 61A course at Berkeley.  
+  - [Practical Python Programming](https://github.com/dabeaz-course/practical-python), David Beazley.  
+- Machine Learning:
+  - Machine Learning, Andrew Ng, Stanford University.  
+    - [Video lectures](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).  
+- Causal Inference:
+  - [Causal Diagrams: Draw Your Assumptions Before Your Conclusions](https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your), Miguel Hernan, Harvard University.  
+  - [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/), Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC.  
+  - [The Book of Why: The New Science of Cause and Effect](https://www.amazon.co.uk/Book-Why-Science-Cause-Effect/dp/0141982411/ref=asc_df_0141982411/?tag=googshopuk-21&linkCode=df0&hvadid=280101927806&hvpos=&hvnetw=g&hvrand=1515808143887519158&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046357&hvtargid=pla-555411478238&psc=1&th=1&psc=1), Judea Pearl & Dana Nackenzie, 2019.  
+- Databases:
+  - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql), Kaggle.  
+  - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql), Kaggle.  
+- Algorithms and Data Structures:
+  - [Introduction to Algorithms](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), MIT.  
+  - [AlgoExpert](https://www.algoexpert.io/).  
+- Mathematics:
+  - [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics), University of California San Diego HSE University, Coursera.  
+- Computer Architecture:
+  - [Great Ideas in Computer Architecture](https://inst.eecs.berkeley.edu//~cs61c/sp15/) (Machine Structures). CS61C, Spring 2015, UC Berkeley.  
+    - [Video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk).  
+- Operating Systems:
+  - [Linux guide](https://github.com/cemacrr/linux_intro/blob/master/document.pdf), Richard Rigby - CEMAC.  
+<!-- - Computer Networking:
+  - ...
+- Languages and Compilers:
+  - ...
+- Distributed Systems:
+  - ... -->
+- Misc:
+  - [Teach Yourself Computer Science](https://teachyourselfcs.com/), Oz Nova and Myles Byrne.  
+  - [Python Packages](https://py-pkgs.org/), Tomas Beuzen & Tiffany Timbers.  
+  - [Modern Python Developer's Toolkit](https://youtu.be/WkUBx3g2QfQ), Sebastian Witowski, PyCon US 2020.  
