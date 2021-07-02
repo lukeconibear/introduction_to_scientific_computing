@@ -26,8 +26,6 @@ There are many excellent resources out there for scientific computing, including
 - Data Science:
   - [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html), Ani Adhikari and John DeNero, UC Berkeley course Data 8: Foundations of Data Science.  
     - [Video lectures](https://www.youtube.com/playlist?list=PL3juAj0fqNsI4HLvMJFnZDDabxAExG0wv).  
-  - [Principles and Techniques of Data Science](https://www.textbook.ds100.org/intro.html), Sam Lau, Joey Gonzalez, and Deb Nolan. UC Berkeley.  
-    - [Video lectures](https://ds100.org/su20/).  
   - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
   - [Scientific Programming](https://fabienmaussion.info/scientific_programming/welcome.html), Fabien Maussion, Department of Atmospheric and Cryospheric Sciences, the University of Innsbruck.  
   - [Python Data Science Handbook](https://www.oreilly.com/library/view/python-data-science/9781491912126/), Jake VanderPlas, 2016. O’Reilly Media, Inc.  
