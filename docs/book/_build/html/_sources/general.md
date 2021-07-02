@@ -27,8 +27,6 @@ There are many excellent resources out there for scientific computing, including
   - [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html), Ani Adhikari and John DeNero, UC Berkeley course Data 8: Foundations of Data Science.  
     - [Video lectures](https://www.youtube.com/playlist?list=PL3juAj0fqNsI4HLvMJFnZDDabxAExG0wv).  
   - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key. 
-  - [Scientific Programming](https://fabienmaussion.info/scientific_programming/welcome.html), Fabien Maussion, Department of Atmospheric and Cryospheric Sciences, the University of Innsbruck.  
-  - [Python Data Science Handbook](https://www.oreilly.com/library/view/python-data-science/9781491912126/), Jake VanderPlas, 2016. O’Reilly Media, Inc.  
 - Programming:  
   - [Composing Programs](https://composingprograms.com/), John DeNero, based on the textbook [Structure and Interpretation of Computer Programs](https://play.google.com/store/books/details?id=MXZQAwAAQBAJ&pcampaignid=books_web_aboutlink) by Harold Abelson and Gerald Jay Sussman.  
     - [Video lectures](https://www.youtube.com/c/JohnDeNero/playlists), 61A course at Berkeley.  
@@ -46,20 +44,11 @@ There are many excellent resources out there for scientific computing, including
 - Algorithms and Data Structures:
   - [Introduction to Algorithms](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), MIT.  
   - [AlgoExpert](https://www.algoexpert.io/).  
-- Mathematics:
-  - [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics), University of California San Diego HSE University, Coursera.  
-- Computer Architecture:
-  - [Great Ideas in Computer Architecture](https://inst.eecs.berkeley.edu//~cs61c/sp15/) (Machine Structures). CS61C, Spring 2015, UC Berkeley.  
-    - [Video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk).  
-- Operating Systems:
-  - [Linux guide](https://github.com/cemacrr/linux_intro/blob/master/document.pdf), Richard Rigby - CEMAC.  
-<!-- - Computer Networking:
-  - ...
-- Languages and Compilers:
-  - ...
-- Distributed Systems:
-  - ... -->
 - Misc:
   - [Teach Yourself Computer Science](https://teachyourselfcs.com/), Oz Nova and Myles Byrne.  
   - [Python Packages](https://py-pkgs.org/), Tomas Beuzen & Tiffany Timbers.  
   - [Modern Python Developer's Toolkit](https://youtu.be/WkUBx3g2QfQ), Sebastian Witowski, PyCon US 2020.  
+  - [Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics), University of California San Diego HSE University, Coursera.  
+  - [Linux guide](https://github.com/cemacrr/linux_intro/blob/master/document.pdf), Richard Rigby - CEMAC.  
+  - [Great Ideas in Computer Architecture](https://inst.eecs.berkeley.edu//~cs61c/sp15/) (Machine Structures). CS61C, Spring 2015, UC Berkeley.  
+    - [Video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk).  
