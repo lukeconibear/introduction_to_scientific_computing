@@ -32,14 +32,18 @@ There are many excellent resources out there for scientific computing, including
     - [Video lectures](https://www.youtube.com/c/JohnDeNero/playlists).  
   - [Practical Python Programming](https://github.com/dabeaz-course/practical-python), David Beazley.  
 - Machine Learning:
+  - If you're interested in jobs in this area, I highly recommend [Workera](https://workera.ai/) to help figure out what the roles are, what you're suited to, what you need to improve on, and personalised plans to make this progress.  
   - Machine Learning, Andrew Ng, Stanford University.  
     - [Video lectures](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).  
+  - [Deep Learning with Python](https://www.amazon.co.uk/Deep-Learning-Python-Francois-Chollet/dp/1617294438), Francois Chollet, 2018.  
 - Causal Inference:
   - [Causal Diagrams: Draw Your Assumptions Before Your Conclusions](https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your), Miguel Hernan, Harvard University.  
   - [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/), Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC.  
   - [The Book of Why: The New Science of Cause and Effect](https://www.amazon.co.uk/Book-Why-Science-Cause-Effect/dp/0141982411/ref=asc_df_0141982411/?tag=googshopuk-21&linkCode=df0&hvadid=280101927806&hvpos=&hvnetw=g&hvrand=1515808143887519158&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046357&hvtargid=pla-555411478238&psc=1&th=1&psc=1), Judea Pearl & Dana Nackenzie, 2019.  
   - [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course), Brady Neal.  
     - [Video lectures](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0).  
+  - [Explanation in Causal Inference: Methods for Mediation and Interaction](https://www.amazon.co.uk/Explanation-Causal-Inference-Mediation-Interaction/dp/0199325871), Tyler Vanderweele, 2015, OUP.  
+    - [Video lectures](https://www.youtube.com/channel/UCQu03AdpGNsY3Ez_8QiJDYg/videos).  
 - Experiments:
   - [Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing](https://experimentguide.com/), Ron Kohavi, Diane Tang, and Ya Xu.  
 - Databases:
