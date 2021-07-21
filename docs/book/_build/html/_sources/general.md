@@ -51,7 +51,7 @@ There are many excellent resources out there for scientific computing, including
   - [AlgoExpert](https://www.algoexpert.io/).  
 - Computer Architecture:
   - [Great Ideas in Computer Architecture](https://inst.eecs.berkeley.edu//~cs61c/sp15/) (Machine Structures). CS61C, Spring 2015, UC Berkeley.  
-  - [Video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk).  
+    - [Video lectures](https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk).  
 - Misc:
   - [Python Packages](https://py-pkgs.org/), Tomas Beuzen & Tiffany Timbers.  
   - [Modern Python Developer's Toolkit](https://youtu.be/WkUBx3g2QfQ), Sebastian Witowski, PyCon US 2020.  
@@ -60,7 +60,9 @@ There are many excellent resources out there for scientific computing, including
   
 ## Machine Learning  
 - If you're interested in jobs in this area, I highly recommend [Workera](https://workera.ai/) to help figure out what the roles are, what you're suited to, what you need to improve on, and personalised plans to make this progress.  
-- [Machine Learning | Coursera](https://www.coursera.org/learn/machine-learning), Andrew Ng, Stanford University.  
+- [Introduction to Machine Learning](https://www.coursera.org/learn/machine-learning), Coursera, Andrew Ng, Stanford University.  
   - [Video lectures](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN).  
+- Machine learning, CS229, Standford University, Andrew Ng.  
+  - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).  
 - [Deep Learning with Python](https://www.amazon.co.uk/Deep-Learning-Python-Francois-Chollet/dp/1617294438), Francois Chollet, 2018.  
 - [Kaggle competitions](https://www.kaggle.com/competitions).  
