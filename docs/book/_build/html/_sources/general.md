@@ -64,5 +64,7 @@ There are many excellent resources out there for scientific computing, including
   - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).  
 - Deep learning, CS230, Stanford University, Andrew Ng.  
   - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb).  
+  - [Syllabus](http://cs230.stanford.edu/syllabus/).  
+  - [Specialisation - Coursera](https://www.coursera.org/specializations/deep-learning).  
 - [Deep Learning with Python](https://www.amazon.co.uk/Deep-Learning-Python-Francois-Chollet/dp/1617294438), Francois Chollet, 2018.  
 - [Kaggle competitions](https://www.kaggle.com/competitions).  
