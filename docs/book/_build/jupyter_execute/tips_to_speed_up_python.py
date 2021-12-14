@@ -377,16 +377,15 @@ cpdef double integrate_f(double a, double b, int N): # adding types
 xr.tutorial.open_dataset('air_temperature')
 
 ### Parallelisation
-- Divide a large problem into many smaller ones and solve *simultaneously*.
+- Parallelisation divides a large problem into many smaller ones and solves them *simultaneously*.
   - *Divides up the time/space complexity across workers.*
   - Tasks centrally managed by a scheduler.
   - Multi-processing (cores) - useful for compute-bound problems.
   - Multi-threading (parts of processes), useful for memory-bound problems.
-    - Threads preemptively controlled by [Global Interpreter Lock, GIL](https://wiki.python.org/moin/GlobalInterpreterLock).
-- If need to share memory across chunks
+- If need to share memory across chunks:  
   - Use [shared memory](https://docs.dask.org/en/latest/shared.html) (commonly OpenMP, Open Multi-Processing).
   - `-pe smp np` on ARC4
-- Otherwise
+- Otherwise:  
   - Use [message passing interface, MPI](https://docs.dask.org/en/latest/setup/hpc.html?highlight=mpi#using-mpi) (commonly OpenMPI).
   - `-pe ib np` on ARC4
 

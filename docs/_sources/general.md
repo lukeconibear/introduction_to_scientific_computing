@@ -26,6 +26,7 @@ There are many excellent resources out there for scientific computing, including
 - [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html), Ani Adhikari and John DeNero, Data 8: Foundations of Data Science course, UC Berkeley.  
   - [Video lectures](https://www.youtube.com/playlist?list=PL3juAj0fqNsI4HLvMJFnZDDabxAExG0wv).  
 - [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro), Ryan Abernathey and Kerry Key.  
+- [Pythia Foundations](https://foundations.projectpythia.org/landing-page.html), A community learning resource for Python-based computing in the geosciences.  
 - Databases:
   - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql), Kaggle.  
   - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql), Kaggle.  
@@ -62,9 +63,9 @@ There are many excellent resources out there for scientific computing, including
 - If you're interested in jobs in this area, I highly recommend [Workera](https://workera.ai/) to help figure out what the roles are, what you're suited to, what you need to improve on, and personalised plans to make this progress.  
 - Machine learning, CS229, Standford University, Andrew Ng.  
   - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).  
-- Deep learning, CS230, Stanford University, Andrew Ng.  
-  - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb).  
-  - [Syllabus](http://cs230.stanford.edu/syllabus/).  
-  - [Specialisation - Coursera](https://www.coursera.org/specializations/deep-learning).  
+- [Deep learning]((https://www.coursera.org/specializations/deep-learning)), Coursera, DeepLearning.AI.  
+  - [Video lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb), CS230, Stanford University.  
+  - [Syllabus](http://cs230.stanford.edu/syllabus/), CS230, Stanford University.  
 - [Deep Learning with Python](https://www.amazon.co.uk/Deep-Learning-Python-Francois-Chollet/dp/1617294438), Francois Chollet, 2018.  
+- [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646), Aurelien Geron, 2019.  
 - [Kaggle competitions](https://www.kaggle.com/competitions).  

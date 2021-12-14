@@ -1965,25 +1965,21 @@ Attributes:
 <div class="section" id="parallelisation">
 <h3>Parallelisation<a class="headerlink" href="#parallelisation" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Divide a large problem into many smaller ones and solve <em>simultaneously</em>.</p>
+<li><p>Parallelisation divides a large problem into many smaller ones and solves them <em>simultaneously</em>.</p>
 <ul>
 <li><p><em>Divides up the time/space complexity across workers.</em></p></li>
 <li><p>Tasks centrally managed by a scheduler.</p></li>
 <li><p>Multi-processing (cores) - useful for compute-bound problems.</p></li>
-<li><p>Multi-threading (parts of processes), useful for memory-bound problems.</p>
-<ul>
-<li><p>Threads preemptively controlled by <a class="reference external" href="https://wiki.python.org/moin/GlobalInterpreterLock">Global Interpreter Lock, GIL</a>.</p></li>
+<li><p>Multi-threading (parts of processes), useful for memory-bound problems.</p></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><p>If need to share memory across chunks</p>
+<li><p>If need to share memory across chunks:</p>
 <ul>
 <li><p>Use <a class="reference external" href="https://docs.dask.org/en/latest/shared.html">shared memory</a> (commonly OpenMP, Open Multi-Processing).</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">-pe</span> <span class="pre">smp</span> <span class="pre">np</span></code> on ARC4</p></li>
 </ul>
 </li>
-<li><p>Otherwise</p>
+<li><p>Otherwise:</p>
 <ul>
 <li><p>Use <a class="reference external" href="https://docs.dask.org/en/latest/setup/hpc.html?highlight=mpi#using-mpi">message passing interface, MPI</a> (commonly OpenMPI).</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">-pe</span> <span class="pre">ib</span> <span class="pre">np</span></code> on ARC4</p></li>
